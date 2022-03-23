@@ -1,0 +1,93 @@
+<!-- index.html is usually the name that developers give their home page -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- UTF is Unicode Transformation Format, good for encoding in different languages, including emojis -->
+    <title>😎 Matthew's Personal Site</title>
+  </head>
+
+  <body>
+    <!-- img src="https://media-exp1.licdn.com/dms/image/C4E03AQESle3Hw41RWg/profile-displayphoto-shrink_400_400/0/1623890130199?e=1647475200&v=beta&t=00_KVIwe-N80BdDIU6BwA2mKia95ucKNuszU8aRMsgE" alt="Matthew Profile Picture" -->
+    <!-- This uses tables to affect the layout (although not optimal using HTML)-->
+    <table cellspacing="20">
+      <tr>
+        <td><img src="Images/matthew.png" alt="Matthew Profile Picture" width="200"></td>
+        <td>    <h1>Matthew Manalang</h1>
+            <p>
+              <em>Student at the <strong><a href="https://www.uh.edu/">University of Houston</a></strong></em><br>
+              <em>Majoring in <strong>Computer Science</strong></em><br>
+              <em>Minoring in <strong>Management of Information Systems</strong></em>
+            </p>
+            <p>
+              I am a CS student who has experience in Java, Python, C++, and SQL/Databases.
+            </p>
+        </td>
+      </tr>
+    </table>
+    <!-- You can do just width or just height and it will keep the ratio between both. You can also specify BOTH if you really want something specific -->
+    <!-- The first <img /> uses an internet address for the picture source -->
+    <!-- The second <img /> uses a local address for the picture source -->
+    <!-- the alt attribute is "alternative text" that describes the picture for search engines -->
+    <!-- Image cropped using https://crop-circle.imageonline.co/ -->
+
+    <hr>
+    <h3>Education</h3>
+    <ul>
+      <li>University of Houston (2018 to Present)</li>
+      <ul>
+          <li>Studying Computer Science in the Natural Sciences and Mathematics College</li>
+          <li>Studying Management of Information Systems in the Bauer College</li>
+      </ul>
+      <li>William B. Travis High School (2014 to 2018)</li>
+    </ul>
+
+    <hr>
+    <h3>Work Experience</h3>
+    <table cellspacing="10">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Work</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2019 - Present</td>
+          <td>TomNTom's Coffee</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr>
+    <h3>Skills</h3>
+    <table>
+      <tr>
+        <td>
+          <table cellspacing="10"> <!-- Nested table -->
+            <tr>
+              <td>C++</td>
+              <td>★★★☆☆</td>
+            </tr>
+            <tr>
+              <td>Java</td>
+              <td>★★★☆☆</td>
+            </tr>
+            <tr>
+              <td>SQL</td>
+              <td>★★★☆☆</td>
+            </tr>
+            <tr>
+              <td>Javascript</td>
+              <td>★☆☆☆☆</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <hr>
+    <h3><a href="hobbies.html">My Hobbies</a></h3>
+    <h3><a href="contact-me.html">Contact Me</a></h3>
+  </body>
+</html>
